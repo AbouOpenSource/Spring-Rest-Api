@@ -18,9 +18,6 @@ public class FilteringController {
     public MappingJacksonValue retrieveSomeBean(){
         SomeBean someBean =new SomeBean("value1","value2","value3");
 
-
-
-
         SimpleBeanPropertyFilter filter = SimpleBeanPropertyFilter.filterOutAllExcept("value3");
         FilterProvider filters = new SimpleFilterProvider().addFilter("SomeBeanFilter", filter);
   

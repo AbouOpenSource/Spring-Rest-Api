@@ -5,6 +5,7 @@ package com.github.abouopensource.restifulApiSpring.Controllers;
 import com.github.abouopensource.restifulApiSpring.Models.User;
 import com.github.abouopensource.restifulApiSpring.exception.UserNotFoundException;
 import com.github.abouopensource.restifulApiSpring.service.UserDaoService;
+import org.mapstruct.Mapping;
 import org.springframework.beans.factory.annotation.Autowired;
 /*import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
